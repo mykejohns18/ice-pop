@@ -1,28 +1,26 @@
-Hardware Shop Website
+Ice Pop Shop Website
 
-This is a web-based platform for a hardware shop that allows the owner to post products, and customers to view products, add them to a cart, and make payments using M-Pesa before delivery. The project is built using HTML, CSS, JavaScript, and Node.js.
+This is a simple web-based platform for an ice pop shop. It allows the shop owner to post different types, colors, and flavors of ice pops, and enables customers to view products, add them to a cart, and make payments before delivery. The project is built using HTML, CSS, and JavaScript.
 
 Features
 
 1. Admin Functionality
 
-Post new hardware products, including name, price, and image.
+Post new ice pop products, including name, color, flavor, price, and image.
 
 Manage product inventory (add/edit/delete products).
 
 2. Customer Functionality
 
-View available products on the homepage.
+Browse the available ice pops by type, color, and flavor.
 
-Add products to the cart.
+Add ice pops to a shopping cart.
 
-View the cart and proceed to checkout.
+Proceed to checkout and make payments before delivery.
 
-Make payments using M-Pesa.
+3. Payment System
 
-3. Payment Integration
-
-Integrated with Safaricom's M-Pesa Daraja API for secure payment processing via STK push.
+Integrated with M-Pesa for secure payment processing before delivery.
 
 Technologies Used
 
@@ -36,9 +34,6 @@ JavaScript
 
 Backend
 
-Node.js with Express.js
+Node.js with Express.js (for payment processing and product management)
 
-Payment Integration
-
-Safaricom M-Pesa Daraja API
 
